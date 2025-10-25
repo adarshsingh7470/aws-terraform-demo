@@ -18,6 +18,8 @@ Security Groups – For controlling inbound and outbound traffic.
 User Data Script – Automatically installs and mounts EFS to the EC2 instance.
 
 🏗️ Architecture Diagram
+
+
           ┌────────────────────┐
           │     S3 Bucket      │
           └─────────┬──────────┘
@@ -30,6 +32,8 @@ User Data Script – Automatically installs and mounts EFS to the EC2 instance.
           ┌─────────▼──────────┐
           │        EFS         │
           └────────────────────┘
+
+
 
 ⚙️ Prerequisites
 
