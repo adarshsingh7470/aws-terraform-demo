@@ -1,0 +1,6 @@
+aws_region        = "us-east-1"
+availability_zone = "us-east-1a"
+instance_name     = "my-efs-server"
+key_name          = "keys"
+efs_name          = "my-storage"
+allow_ssh_ip      = "0.0.0.0/0"
